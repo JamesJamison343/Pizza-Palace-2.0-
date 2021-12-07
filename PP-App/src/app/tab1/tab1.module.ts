@@ -6,7 +6,6 @@ import { Tab1Page } from './tab1.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
-import { FeaturedItemComponent } from '../featured-item/featured-item.component';
 
 @NgModule({
   imports: [
@@ -16,6 +15,6 @@ import { FeaturedItemComponent } from '../featured-item/featured-item.component'
     ExploreContainerComponentModule,
     Tab1PageRoutingModule,
   ],
-  declarations: [Tab1Page, FeaturedItemComponent]
+  declarations: [Tab1Page]
 })
 export class Tab1PageModule {}
